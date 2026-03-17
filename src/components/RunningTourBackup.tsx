@@ -10,7 +10,7 @@ import {
   Sunrise,
   CreditCard,
 } from "lucide-react";
-import { useLanguage } from "../contexts/LanguageContext";
+import { useTranslations } from "next-intl";
 import {
   Card,
   CardContent,
@@ -26,10 +26,10 @@ const runningImage =
   "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwyfHxydW5uaW5nfGVufDB8fHx8MTc3MzAwODMxMnww&ixlib=rb-4.1.0&q=85";
 
 const RunningTour = () => {
-  const { t } = useLanguage();
+  const t = useTranslations();
   const [participants, setParticipants] = useState(1);
   // Calculate price based on group size
-  const calculatePrice = (numPeople) => {
+  const calculatePrice = (numPeople: number) => {
     if (numPeople === 1) return 29; // Launch price
     if (numPeople === 2) return 28;
     if (numPeople === 3) return 27;
@@ -66,11 +66,11 @@ const RunningTour = () => {
             <Activity className="h-8 w-8 text-red-500" />
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            {t.runningTour?.title || "Sunrise Running Tour Palma"}
+            {/* {t.runningTour?.title || "Sunrise Running Tour Palma"} */}
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-4">
-            {t.runningTour?.subtitle ||
-              "Entrena mientras conoces la ciudad cuando aún duerme"}
+            {/* {t.runningTour?.subtitle ||
+              "Entrena mientras conoces la ciudad cuando aún duerme"} */}
           </p>
           <div className="flex items-center justify-center text-green-600 font-medium">
             <Leaf className="h-5 w-5 mr-2" />
@@ -101,8 +101,8 @@ const RunningTour = () => {
 
             {/* Description */}
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              {t.runningTour?.description ||
-                "Únete a nuestro Sunrise Running Tour y vive Palma de una forma única. Mientras la ciudad despierta, recorrerás sus monumentos más emblemáticos: desde la majestuosa Catedral de La Seu hasta el histórico barrio judío, pasando por el elegante Paseo del Borne. Descubre el Castillo de Bellver desde sus mejores ángulos y disfruta del amanecer sobre el Mediterráneo en el Paseo Marítimo. Un guía local apasionado te llevará por los secretos de Palma al ritmo que mejor se adapte al grupo."}
+              {/* {t.runningTour?.description ||
+                "Únete a nuestro Sunrise Running Tour y vive Palma de una forma única. Mientras la ciudad despierta, recorrerás sus monumentos más emblemáticos: desde la majestuosa Catedral de La Seu hasta el histórico barrio judío, pasando por el elegante Paseo del Borne. Descubre el Castillo de Bellver desde sus mejores ángulos y disfruta del amanecer sobre el Mediterráneo en el Paseo Marítimo. Un guía local apasionado te llevará por los secretos de Palma al ritmo que mejor se adapte al grupo."} */}
             </p>
 
             {/* Flexible Schedule Info */}
@@ -148,7 +148,7 @@ const RunningTour = () => {
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
                 ¿Qué incluye?
               </h3>
-              {(
+              {/* {(
                 t.runningTour?.features || [
                   "Recorrido de 8-10 km",
                   "Nivel: principiante a intermedio",
@@ -160,7 +160,7 @@ const RunningTour = () => {
                   <Check className="h-5 w-5 text-green-600 mr-3 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-700">{feature}</span>
                 </div>
-              ))}
+              ))} */}
             </div>
 
             {/* Highlights */}
@@ -201,7 +201,7 @@ const RunningTour = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 font-semibold mb-2">
-                  {t.runningTour?.schedule || "Lunes a Sábado - 7:00h"}
+                  {/* {t.runningTour?.schedule || "Lunes a Sábado - 7:00h"} */}
                 </p>
                 <p className="text-sm text-gray-600 mb-2">
                   ⏱️ Duración aproximada: 1.5 - 2 horas

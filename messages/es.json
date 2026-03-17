@@ -1,0 +1,216 @@
+{
+  "hero": {
+    "badge": "Guías verificadas en más de 50 destinos",
+    "title": "Discover City Guide",
+    "subtitle": "Explora el mundo con confianza. Nosotros encontramos lo mejor para ti.",
+    "description": "Planificar un viaje debería ser emocionante, no abrumador. En Discover City Guide investigamos, analizamos y seleccionamos los mejores hoteles, experiencias y lugares en cada ciudad para que puedas disfrutar tu viaje desde el primer momento.",
+    "primaryCTA": "Explorar guías de ciudades",
+    "secondaryCTA": "Encontrar hoteles y experiencias",
+    "searchPlaceholder": "Buscar destinos...",
+    "noDestinationsTitle": "No se encontraron destinos",
+    "noDestinationsSubtitle": "Intenta buscar ciudades como Mallorca, Barcelona u Lisboa",
+    "destinations": "Destinos",
+    "verifiedHotels": "Hoteles verificados",
+    "uniqueExperiences": "Experiencias únicas",
+    "happyTravelers": "Viajeros felices"
+  },
+  "popularDestinations": {
+    "title": "Destinos populares",
+    "description": "Desde playas paradisíacas hasta ciudades llenas de historia",
+    "explore": "Explorar",
+    "viewAllDestinations": "Ver todos los destinos"
+  },
+  "topHotels": {
+    "title": "Mejores hoteles por ciudad",
+    "description": "Alojamientos seleccionados por calidad, ubicación y experiencia",
+    "bookingButton": "Ver en Booking.com",
+    "bestHotelsIn": "Mejores hoteles en"
+  },
+  "topExperiences": {
+    "title": "Experiencias imperdibles",
+    "description": "Tours, actividades y experiencias únicas en cada destino",
+    "viewToursGetYourGuide": "Ver tours en GetYourGuide",
+    "viewExperiencesViator": "Ver experiencias en Viator",
+    "toursIn": "Tours en",
+    "activitiesIn": "Actividades en",
+    "excursionsIn": "Excursiones en",
+    "excursionsFrom": "Excursiones desde",
+    "historicalToursIn": "Tours históricos en"
+  },
+  "mallorca": {
+    "name": "Mallorca",
+    "country": "España",
+    "region": "Islas Baleares",
+    "description": "Playas paradisíacas, calas escondidas y la auténtica vida mediterránea",
+    "highlight1": "Playas cristalinas",
+    "highlight2": "Serra de Tramuntana",
+    "highlight3": "Gastronomía local",
+    "hotels": "Resorts de playa y hoteles boutique en Palma",
+    "experiences": "Serra de Tramuntana y tours en barco"
+  },
+  "menorca": {
+    "name": "Menorca",
+    "country": "España",
+    "region": "Islas Baleares",
+    "description": "Reserva de la Biosfera con calas vírgenes y paisajes naturales",
+    "highlight1": "Calas turquesas",
+    "highlight2": "Camí de Cavalls",
+    "highlight3": "Tranquilidad",
+    "hotels": "",
+    "experiences": ""
+  },
+  "ibiza": {
+    "name": "Ibiza",
+    "country": "España",
+    "region": "Islas Baleares",
+    "description": "Playas espectaculares, puestas de sol mágicas y vida nocturna",
+    "highlight1": "Cala Comte",
+    "highlight2": "Dalt Vila",
+    "highlight3": "Ambiente único",
+    "hotels": "",
+    "experiences": ""
+  },
+  "formentera": {
+    "name": "Formentera",
+    "country": "España",
+    "region": "Islas Baleares",
+    "description": "El paraíso del Mediterráneo con las aguas más cristalinas",
+    "highlight1": "Ses Illetes",
+    "highlight2": "Playas vírgenes",
+    "highlight3": "Espalmador",
+    "hotels": "",
+    "experiences": ""
+  },
+  "barcelona": {
+    "name": "Barcelona",
+    "country": "España",
+    "region": "Cataluña",
+    "description": "Arte, Gaudí, playa y vida mediterránea en la ciudad condal",
+    "highlight1": "Sagrada Familia",
+    "highlight2": "Park Güell",
+    "highlight3": "Barrio Gótico",
+    "hotels": "Hoteles boutique en el Eixample y frente al mar",
+    "experiences": "Montserrat, Girona y Costa Brava"
+  },
+  "madrid": {
+    "name": "Madrid",
+    "country": "España",
+    "region": "Comunidad de Madrid",
+    "description": "Capital vibrante con arte, cultura y la mejor vida nocturna",
+    "highlight1": "Museo del Prado",
+    "highlight2": "Retiro",
+    "highlight3": "Gran Vía",
+    "hotels": "Hoteles céntricos cerca de Gran Vía y Retiro",
+    "experiences": ""
+  },
+  "valencia": {
+    "name": "Valencia",
+    "country": "España",
+    "region": "Comunidad Valenciana",
+    "description": "Ciudad de las Artes, playas urbanas y la auténtica paella",
+    "highlight1": "Ciudad de las Artes",
+    "highlight2": "Playa Malvarrosa",
+    "highlight3": "Centro histórico",
+    "hotels": "",
+    "experiences": ""
+  },
+  "alicante": {
+    "name": "Alicante",
+    "country": "España",
+    "region": "Comunidad Valenciana",
+    "description": "Costa Blanca, castillo y playas de aguas cristalinas",
+    "highlight1": "Castillo Santa Bárbara",
+    "highlight2": "Explanada",
+    "highlight3": "Calas",
+    "hotels": "",
+    "experiences": ""
+  },
+  "malaga": {
+    "name": "Málaga",
+    "country": "España",
+    "region": "Andalucía",
+    "description": "Puerta de la Costa del Sol con arte, historia y playas",
+    "highlight1": "Museo Picasso",
+    "highlight2": "Alcazaba",
+    "highlight3": "Playas",
+    "hotels": "",
+    "experiences": ""
+  },
+  "roma": {
+    "name": "Roma",
+    "country": "Italia",
+    "region": "Lacio",
+    "description": "La Ciudad Eterna con historia milenaria en cada rincón",
+    "highlight1": "Coliseo",
+    "highlight2": "Vaticano",
+    "highlight3": "Fontana di Trevi",
+    "hotels": "Alojamientos con historia en el centro histórico",
+    "experiences": "Coliseo, Vaticano y tours nocturnos"
+  },
+  "florencia": {
+    "name": "Florencia",
+    "country": "Italia",
+    "region": "Toscana",
+    "description": "Cuna del Renacimiento con arte y arquitectura incomparables",
+    "highlight1": "Duomo",
+    "highlight2": "Uffizi",
+    "highlight3": "Ponte Vecchio",
+    "hotels": "",
+    "experiences": ""
+  },
+  "venecia": {
+    "name": "Venecia",
+    "country": "Italia",
+    "region": "Véneto",
+    "description": "La ciudad de los canales, góndolas y romance",
+    "highlight1": "Gran Canal",
+    "highlight2": "San Marcos",
+    "highlight3": "Góndolas",
+    "hotels": "",
+    "experiences": ""
+  },
+  "paris": {
+    "name": "París",
+    "country": "Francia",
+    "region": "Île-de-France",
+    "description": "La Ciudad de la Luz, capital del arte, moda y gastronomía",
+    "highlight1": "Torre Eiffel",
+    "highlight2": "Louvre",
+    "highlight3": "Notre-Dame",
+    "hotels": "Hoteles de lujo en Le Marais y Champs-Élysées",
+    "experiences": "Cruceros por el Sena y tours gastronómicos"
+  },
+  "niza": {
+    "name": "Niza",
+    "country": "Francia",
+    "region": "Costa Azul",
+    "description": "Perla de la Costa Azul con playas y elegancia mediterránea",
+    "highlight1": "Promenade des Anglais",
+    "highlight2": "Casco antiguo",
+    "highlight3": "Playas",
+    "hotels": "",
+    "experiences": ""
+  },
+  "lisboa": {
+    "name": "Lisboa",
+    "country": "Portugal",
+    "region": "Lisboa",
+    "description": "Ciudad de las siete colinas, tranvías y fado",
+    "highlight1": "Belém",
+    "highlight2": "Alfama",
+    "highlight3": "Tranvía 28",
+    "hotels": "Hoteles con encanto en Alfama y Baixa",
+    "experiences": "Sintra, Cascais y tour de fado"
+  },
+  "oporto": {
+    "name": "Oporto",
+    "country": "Portugal",
+    "region": "Norte",
+    "description": "Vino de Oporto, puentes icónicos y ribera del Duero",
+    "highlight1": "Ribeira",
+    "highlight2": "Bodegas",
+    "highlight3": "Puente Luis I",
+    "hotels": "",
+    "experiences": ""
+  }
+}

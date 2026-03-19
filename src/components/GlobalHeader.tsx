@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import Link from "next/link";
 import { Globe, Menu, X, Home } from "lucide-react";
@@ -25,7 +27,6 @@ const GlobalHeader = () => {
   const t = useTranslations();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
-  const isHome = pathname === "/";
 
   const currentLang = languages.find((l) => l.code === locale);
 
@@ -48,10 +49,10 @@ const GlobalHeader = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-1">
             <Link
-              href={`/${locale}`}
+              href={pathname}
               className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all"
             >
-              {/* {t.nav.destinations} */}
+              {t("header.destinations")}
             </Link>
             <a
               href="https://www.booking.com"
@@ -59,13 +60,13 @@ const GlobalHeader = () => {
               rel="noopener noreferrer"
               className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all"
             >
-              {/* {t.nav.hotels} */}
+              {t("header.hotels")}
             </a>
             <Link
-              href={`/${locale}`}
+              href={pathname}
               className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all"
             >
-              {/* {t.nav.experiences} */}
+              {t("header.experiences")}
             </Link>
           </div>
 
@@ -119,7 +120,7 @@ const GlobalHeader = () => {
                 onClick={() => setMobileMenuOpen(false)}
                 className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all"
               >
-                {/* {t.nav.destinations} */}
+                {t("header.destinations")}
               </Link>
               <a
                 href="https://www.booking.com"
@@ -128,14 +129,14 @@ const GlobalHeader = () => {
                 onClick={() => setMobileMenuOpen(false)}
                 className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all"
               >
-                {/* {t.nav.hotels} */}
+                {t("header.hotels")}
               </a>
               <Link
                 href={`/${locale}`}
                 onClick={() => setMobileMenuOpen(false)}
                 className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all"
               >
-                {/* {t.nav.experiences} */}
+                {t("header.experiences")}
               </Link>
             </div>
           </div>

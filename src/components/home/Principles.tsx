@@ -1,7 +1,11 @@
-import { FC } from "react";
+import { useTranslations } from "next-intl";
 import { Card, CardContent } from "../ui/Card";
 
-const Principles: FC<{ principles: any }> = ({ principles }) => {
+const icons = ["🌍", "🔎", "🧭", "🤝"];
+
+const Principles = () => {
+  const t = useTranslations();
+
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
@@ -15,18 +19,18 @@ const Principles: FC<{ principles: any }> = ({ principles }) => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-          {principles.map((principle: any, index: number) => (
+          {icons.map((icon, index) => (
             <Card
               key={index}
               className="border-2 hover:border-blue-500 hover:shadow-xl transition-all duration-300"
             >
               <CardContent className="p-6 text-center">
-                <div className="text-5xl mb-4">{principle.icon}</div>
+                <div className="text-5xl mb-4">{icon}</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  {principle.title}
+                  {t(`principles.card${index + 1}Title`)}
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
-                  {principle.description}
+                  {t(`principles.card${index + 1}Description`)}
                 </p>
               </CardContent>
             </Card>

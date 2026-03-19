@@ -1,4 +1,9 @@
 {
+  "header": {
+    "destinations": "Destinos",
+    "hotels": "Hoteles",
+    "experiences": "Experiencias"
+  },
   "hero": {
     "badge": "Guías verificadas en más de 50 destinos",
     "title": "Discover City Guide",
@@ -37,6 +42,61 @@
     "excursionsFrom": "Excursiones desde",
     "historicalToursIn": "Tours históricos en"
   },
+  "travelGuides": {
+    "title": "Guías de viaje",
+    "description": "Itinerarios detallados para aprovechar al máximo cada destino",
+    "readFullGuide": "Leer guía completa",
+    "inNroDays": "{city} in {days} days",
+    "whatToSeeIn": "Qué ver en {city}",
+    "itineraryOf": "Itinerario de {city}",
+    "complete": "{city} completa",
+    "essential": "{city} imprescindible"
+  },
+  "appPromotion": {
+    "availableOn": "Disponible en iOS y Android",
+    "title": "Lleva Discover City Guide en tu bolsillo",
+    "description": "Accede a todas nuestras guías, mapas offline y recomendaciones personalizadas desde tu móvil. Planifica y disfruta tu viaje sin complicaciones.",
+    "feature1Title": "Mapas offline",
+    "feature1Description": "Accede a todos los mapas sin conexión a internet",
+    "feature2Title": "Favoritos guardados",
+    "feature2Description": "Guarda tus lugares favoritos y créate itinerarios personalizados",
+    "feature3Title": "Ofertas exclusivas",
+    "feature3Description": "Recibe notificaciones de descuentos en hoteles y experiencias",
+    "downloadOnAppStore": "Descárgala en",
+    "appStore": "App Store",
+    "availableOnGooglePlay": "Disponible en",
+    "googlePlay": "Google Play",
+    "comingSoon": "Próximamente disponible – sé el primero en descubrirla.",
+    "notifyMe": "¡Notifícame cuando salga!",
+    "downloadOfflineGuide": "Descargar guía offline",
+    "overlayDescription": "9 playas paradisíacas cerca de ti",
+    "floatingCard1Title": "Cala Figuera",
+    "floatingCard1Description": "2.3 km",
+    "floatingCard2Title": "Es Molí de Sal",
+    "floatingCard2Description": "★ 4.8"
+  },
+  "philosophy": {
+    "title": "Nuestra filosofía",
+    "description": "En Discover City Guide creemos que cada viaje es una oportunidad para descubrir algo nuevo: una cultura, una historia o un lugar que recordarás toda la vida.<br></br><br></br>Por eso creamos guías claras, prácticas y honestas que ayudan a los viajeros a tomar mejores decisiones.<br></br><br></br>Nuestro objetivo es simple: ahorrarte horas de búsqueda y ayudarte a encontrar las mejores experiencias en cada destino.<br></br><br></br>Cuando recomendamos un hotel, un tour o una actividad, lo hacemos después de investigar y comparar opciones para asegurarnos de que realmente aporten valor a tu viaje.<br></br><br></br>Si decides reservar a través de nuestros enlaces, no pagarás nada adicional. Simplemente nos ayudas a seguir creando contenido útil para viajeros como tú.<br></br><br></br>Porque más que mostrar destinos, queremos ayudarte a vivirlos de verdad."
+  },
+  "principles": {
+    "title": "Nuestros principios",
+    "description": "Cada recomendación sigue estos valores fundamentales",
+    "card1Title": "El viajero primero",
+    "card1Description": "Cada recomendación está pensada para ayudarte a tener la mejor experiencia posible.",
+    "card2Title": "Investigación y selección",
+    "card2Description": "Analizamos cientos de opciones para mostrarte solo lo que realmente merece la pena.",
+    "card3Title": "Guías prácticas",
+    "card3Description": "Información clara, directa y útil para que puedas planificar tu viaje fácilmente.",
+    "card4Title": "Transparencia",
+    "card4Description": "Algunos enlaces pueden generar una pequeña comisión, pero nuestras recomendaciones siempre se basan en calidad y valor para el viajero."
+  },
+  "closingCTA": {
+    "badge": "Comienza tu aventura hoy",
+    "title": "Tu próxima aventura empieza con una buena guía",
+    "description": "Descubre ciudades increíbles, encuentra alojamientos perfectos y reserva experiencias inolvidables con Discover City Guide.",
+    "cta": "Empieza a explorar ahora"
+  },
   "mallorca": {
     "name": "Mallorca",
     "country": "España",
@@ -46,7 +106,8 @@
     "highlight2": "Serra de Tramuntana",
     "highlight3": "Gastronomía local",
     "hotels": "Resorts de playa y hoteles boutique en Palma",
-    "experiences": "Serra de Tramuntana y tours en barco"
+    "experiences": "Serra de Tramuntana y tours en barco",
+    "travelGuides": ""
   },
   "menorca": {
     "name": "Menorca",
@@ -57,7 +118,8 @@
     "highlight2": "Camí de Cavalls",
     "highlight3": "Tranquilidad",
     "hotels": "",
-    "experiences": ""
+    "experiences": "",
+    "travelGuides": ""
   },
   "ibiza": {
     "name": "Ibiza",
@@ -68,7 +130,8 @@
     "highlight2": "Dalt Vila",
     "highlight3": "Ambiente único",
     "hotels": "",
-    "experiences": ""
+    "experiences": "",
+    "travelGuides": ""
   },
   "formentera": {
     "name": "Formentera",
@@ -79,7 +142,8 @@
     "highlight2": "Playas vírgenes",
     "highlight3": "Espalmador",
     "hotels": "",
-    "experiences": ""
+    "experiences": "",
+    "travelGuides": ""
   },
   "barcelona": {
     "name": "Barcelona",
@@ -90,7 +154,8 @@
     "highlight2": "Park Güell",
     "highlight3": "Barrio Gótico",
     "hotels": "Hoteles boutique en el Eixample y frente al mar",
-    "experiences": "Montserrat, Girona y Costa Brava"
+    "experiences": "Montserrat, Girona y Costa Brava",
+    "travelGuides": ""
   },
   "madrid": {
     "name": "Madrid",
@@ -101,7 +166,8 @@
     "highlight2": "Retiro",
     "highlight3": "Gran Vía",
     "hotels": "Hoteles céntricos cerca de Gran Vía y Retiro",
-    "experiences": ""
+    "experiences": "",
+    "travelGuides": ""
   },
   "valencia": {
     "name": "Valencia",
@@ -112,7 +178,8 @@
     "highlight2": "Playa Malvarrosa",
     "highlight3": "Centro histórico",
     "hotels": "",
-    "experiences": ""
+    "experiences": "",
+    "travelGuides": ""
   },
   "alicante": {
     "name": "Alicante",
@@ -123,7 +190,8 @@
     "highlight2": "Explanada",
     "highlight3": "Calas",
     "hotels": "",
-    "experiences": ""
+    "experiences": "",
+    "travelGuides": ""
   },
   "malaga": {
     "name": "Málaga",
@@ -134,7 +202,8 @@
     "highlight2": "Alcazaba",
     "highlight3": "Playas",
     "hotels": "",
-    "experiences": ""
+    "experiences": "",
+    "travelGuides": ""
   },
   "roma": {
     "name": "Roma",
@@ -145,7 +214,8 @@
     "highlight2": "Vaticano",
     "highlight3": "Fontana di Trevi",
     "hotels": "Alojamientos con historia en el centro histórico",
-    "experiences": "Coliseo, Vaticano y tours nocturnos"
+    "experiences": "Coliseo, Vaticano y tours nocturnos",
+    "travelGuides": ""
   },
   "florencia": {
     "name": "Florencia",
@@ -156,7 +226,8 @@
     "highlight2": "Uffizi",
     "highlight3": "Ponte Vecchio",
     "hotels": "",
-    "experiences": ""
+    "experiences": "",
+    "travelGuides": ""
   },
   "venecia": {
     "name": "Venecia",
@@ -167,7 +238,8 @@
     "highlight2": "San Marcos",
     "highlight3": "Góndolas",
     "hotels": "",
-    "experiences": ""
+    "experiences": "",
+    "travelGuides": ""
   },
   "paris": {
     "name": "París",
@@ -178,7 +250,8 @@
     "highlight2": "Louvre",
     "highlight3": "Notre-Dame",
     "hotels": "Hoteles de lujo en Le Marais y Champs-Élysées",
-    "experiences": "Cruceros por el Sena y tours gastronómicos"
+    "experiences": "Cruceros por el Sena y tours gastronómicos",
+    "travelGuides": ""
   },
   "niza": {
     "name": "Niza",
@@ -189,7 +262,8 @@
     "highlight2": "Casco antiguo",
     "highlight3": "Playas",
     "hotels": "",
-    "experiences": ""
+    "experiences": "",
+    "travelGuides": ""
   },
   "lisboa": {
     "name": "Lisboa",
@@ -200,7 +274,8 @@
     "highlight2": "Alfama",
     "highlight3": "Tranvía 28",
     "hotels": "Hoteles con encanto en Alfama y Baixa",
-    "experiences": "Sintra, Cascais y tour de fado"
+    "experiences": "Sintra, Cascais y tour de fado",
+    "travelGuides": ""
   },
   "oporto": {
     "name": "Oporto",
@@ -211,6 +286,7 @@
     "highlight2": "Bodegas",
     "highlight3": "Puente Luis I",
     "hotels": "",
-    "experiences": ""
+    "experiences": "",
+    "travelGuides": ""
   }
 }

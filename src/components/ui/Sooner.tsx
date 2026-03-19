@@ -1,3 +1,5 @@
+"use client";
+
 import { FC, RefAttributes } from "react";
 import { useTheme } from "next-themes";
 import { Toaster as Sonner, toast, ToasterProps } from "sonner";

@@ -1,6 +1,8 @@
 import { Card, CardContent } from "../ui/Card";
 import { useTranslations } from "next-intl";
-import experiences from "@/data/experiences";
+import destinations from "@/data/destinations";
+
+const cities = ["roma", "barcelona", "paris", "lisboa", "mallorca"];
 
 const TopExperiences = () => {
   const t = useTranslations();
@@ -36,9 +38,9 @@ const TopExperiences = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {experiences.map((exp) => (
+          {cities.map((city) => (
             <a
-              key={exp.city}
+              key={city}
               href="https://www.getyourguide.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -46,13 +48,18 @@ const TopExperiences = () => {
             >
               <Card className="hover:shadow-xl transition-all duration-300 h-full">
                 <CardContent className="p-6 flex items-start gap-4">
-                  <div className="text-4xl">{exp.icon}</div>
+                  <div className="text-4xl">
+                    {destinations[city].experiences.icon}
+                  </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-                      {t(`topExperiences.${exp.type}`)} {t(`${exp.city}.name`)}
+                      {t(
+                        `topExperiences.${destinations[city].experiences.type}`,
+                      )}{" "}
+                      {t(`${city}.name`)}
                     </h3>
                     <p className="text-sm text-gray-600">
-                      {t(`${exp.city}.experiences`)}
+                      {t(`${city}.experiences`)}
                     </p>
                   </div>
                 </CardContent>

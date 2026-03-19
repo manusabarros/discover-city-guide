@@ -17,15 +17,15 @@ const AppPromotion = () => {
             <div className="text-white">
               <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium mb-6">
                 <Smartphone className="w-4 h-4" />
-                {/* {t.home.appAvailableOn} */}
+                {t("appPromotion.availableOn")}
               </div>
 
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-                {/* {t.home.appTitle} */}
+                {t("appPromotion.title")}
               </h2>
 
               <p className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed">
-                {/* {t.home.appDescription} */}
+                {t("appPromotion.description")}
               </p>
 
               {/* Features */}
@@ -36,10 +36,10 @@ const AppPromotion = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">
-                      {/* {t.home.appFeature1Title} */}
+                      {t("appPromotion.feature1Title")}
                     </h3>
                     <p className="text-white/80 text-sm">
-                      {/* {t.home.appFeature1Description} */}
+                      {t("appPromotion.feature1Description")}
                     </p>
                   </div>
                 </div>
@@ -50,10 +50,10 @@ const AppPromotion = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">
-                      {/* {t.home.appFeature2Title} */}
+                      {t("appPromotion.feature2Title")}
                     </h3>
                     <p className="text-white/80 text-sm">
-                      {/* {t.home.appFeature2Description} */}
+                      {t("appPromotion.feature2Description")}
                     </p>
                   </div>
                 </div>
@@ -64,10 +64,10 @@ const AppPromotion = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">
-                      {/* {t.home.appFeature3Title} */}
+                      {t("appPromotion.feature3Title")}
                     </h3>
                     <p className="text-white/80 text-sm">
-                      {/* {t.home.appFeature3Description} */}
+                      {t("appPromotion.feature3Description")}
                     </p>
                   </div>
                 </div>
@@ -88,10 +88,10 @@ const AppPromotion = () => {
                   </svg>
                   <div className="text-left">
                     <div className="text-xs">
-                      {/* {t.home.downloadOnAppStore} */}
+                      {t("appPromotion.downloadOnAppStore")}
                     </div>
                     <div className="text-lg font-semibold -mt-1">
-                      {/* {t.home.appStore} */}
+                      {t("appPromotion.appStore")}
                     </div>
                   </div>
                 </a>
@@ -109,17 +109,17 @@ const AppPromotion = () => {
                   </svg>
                   <div className="text-left">
                     <div className="text-xs">
-                      {/* {t.home.availableOnGooglePlay} */}
+                      {t("appPromotion.availableOnGooglePlay")}
                     </div>
                     <div className="text-lg font-semibold -mt-1">
-                      {/* {t.home.googlePlay} */}
+                      {t("appPromotion.googlePlay")}
                     </div>
                   </div>
                 </a>
               </div>
 
               <p className="text-white/80 text-sm mt-6 italic">
-                {/* {t.home.comingSoon} */}
+                {t("appPromotion.comingSoon")}
               </p>
 
               <Button
@@ -127,7 +127,7 @@ const AppPromotion = () => {
                 className="mt-4 w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border-2 border-white/30 backdrop-blur-sm px-8 py-6 text-base rounded-full"
               >
                 <Bell className="w-5 h-5 mr-2" />
-                {/* {t.home.notifyMe} */}
+                {t("appPromotion.notifyMe")}
               </Button>
             </div>
 
@@ -150,13 +150,15 @@ const AppPromotion = () => {
 
                     {/* App UI Overlay */}
                     <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                      <h3 className="text-2xl font-bold mb-2">Mallorca</h3>
+                      <h3 className="text-2xl font-bold mb-2">
+                        {t("mallorca.name")}
+                      </h3>
                       <p className="text-sm text-white/90 mb-4">
-                        9 playas paradisíacas cerca de ti
+                        {t("appPromotion.overlayDescription")}
                       </p>
                       <Button className="w-full bg-white text-blue-600 hover:bg-blue-50">
                         <Download className="w-4 h-4 mr-2" />
-                        {/* {t.home.downloadOfflineGuide} */}
+                        {t("appPromotion.downloadOfflineGuide")}
                       </Button>
                     </div>
                   </div>
@@ -170,9 +172,11 @@ const AppPromotion = () => {
                     </div>
                     <div>
                       <div className="text-xs font-semibold text-gray-900">
-                        Cala Figuera
+                        {t("appPromotion.floatingCard1Title")}
                       </div>
-                      <div className="text-xs text-gray-500">2.3 km</div>
+                      <div className="text-xs text-gray-500">
+                        {t("appPromotion.floatingCard1Description")}
+                      </div>
                     </div>
                   </div>
                 </Card>
@@ -184,9 +188,11 @@ const AppPromotion = () => {
                     </div>
                     <div>
                       <div className="text-xs font-semibold text-gray-900">
-                        Es Molí de Sal
+                        {t("appPromotion.floatingCard2Title")}
                       </div>
-                      <div className="text-xs text-yellow-600">★ 4.8</div>
+                      <div className="text-xs text-yellow-600">
+                        {t("appPromotion.floatingCard2Description")}
+                      </div>
                     </div>
                   </div>
                 </Card>
@@ -195,33 +201,6 @@ const AppPromotion = () => {
           </div>
         </div>
       </div>
-
-      {/* <style jsx>{`
-        @keyframes float {
-          0%,
-          100% {
-            transform: translateY(0px);
-          }
-          50% {
-            transform: translateY(-10px);
-          }
-        }
-        @keyframes float-delay {
-          0%,
-          100% {
-            transform: translateY(0px);
-          }
-          50% {
-            transform: translateY(-15px);
-          }
-        }
-        .animate-float {
-          animation: float 3s ease-in-out infinite;
-        }
-        .animate-float-delay {
-          animation: float-delay 3s ease-in-out infinite 1.5s;
-        }
-      `}</style> */}
     </section>
   );
 };

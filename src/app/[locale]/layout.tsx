@@ -4,6 +4,9 @@ import "./globals.css";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import GlobalHeader from "@/components/GlobalHeader";
+import Footer from "@/components/Footer";
+import { Toaster } from "@/components/ui/Sooner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,7 +38,12 @@ const RootLayout = async ({ children, params }: Props) => {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <GlobalHeader />
+          {children}
+          {/* <Footer /> */}
+          <Toaster position="top-right" />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

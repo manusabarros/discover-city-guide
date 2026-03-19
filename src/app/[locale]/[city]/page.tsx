@@ -6,7 +6,7 @@ import { useParams } from "next/navigation";
 import { FC } from "react";
 
 const CityPage: FC = () => {
-  const t = useTranslations("HomePage");
+  const t = useTranslations();
   const pathname = usePathname();
   const { locale } = useParams();
   console.log(locale, pathname);
